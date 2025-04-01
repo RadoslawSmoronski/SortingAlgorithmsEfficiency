@@ -15,7 +15,7 @@ namespace SortingBenchmarks
         [Params(10, 100, 1000)]
         public int N;
 
-        [Params("Random", "Sorted", "Reversed")]
+        [Params("Random", "Sorted", "AlmostSorted", "Reversed")]
         public string ArrayType = String.Empty;
 
         [GlobalSetup]
@@ -28,6 +28,9 @@ namespace SortingBenchmarks
                     break;
                 case "Sorted":
                     array = arrayGenerators.GenerateSorted(N);
+                    break;
+                case "AlmostSorted":
+                    array = arrayGenerators.GenerateAlmostSorted(N);
                     break;
                 case "Reversed":
                     array = arrayGenerators.GenerateReversed(N);
