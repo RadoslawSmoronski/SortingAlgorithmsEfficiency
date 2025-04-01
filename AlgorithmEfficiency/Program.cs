@@ -1,10 +1,13 @@
-﻿namespace SortingAlgorithmsEfficiency
+﻿using BenchmarkDotNet.Running;
+using SortingBenchmarks;
+
+namespace SortingAlgorithmsEfficiency
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            BenchmarkRunner.Run<SortingBenchmark>();
         }
     }
 }

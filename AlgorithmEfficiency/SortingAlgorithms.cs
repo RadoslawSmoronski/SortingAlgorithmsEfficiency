@@ -110,5 +110,13 @@ namespace SortingAlgorithmsEfficiency
                 QuickSort(array, i, right);
             return array;
         }
+
+        //StandardArrayQuickSort
+
+        public int[] StandardArrayQuickSort(int[] array)
+        {
+            Array.Sort(array);
+            return array;
+        }
     }
 }
