@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmEfficiency", "AlgorithmEfficiency\AlgorithmEfficiency.csproj", "{C294820D-77C4-401F-84E3-5B3AD0AD1729}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C294820D-77C4-401F-84E3-5B3AD0AD1729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C294820D-77C4-401F-84E3-5B3AD0AD1729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C294820D-77C4-401F-84E3-5B3AD0AD1729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C294820D-77C4-401F-84E3-5B3AD0AD1729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {633BCC80-B183-4676-8CA5-F8773BB3767E}
+	EndGlobalSection
+EndGlobal
