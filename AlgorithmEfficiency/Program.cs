@@ -1,4 +1,4 @@
-﻿namespace AlgorithmEfficiency
+﻿namespace SortingAlgorithmsEfficiency
 {
     internal class Program
     {
