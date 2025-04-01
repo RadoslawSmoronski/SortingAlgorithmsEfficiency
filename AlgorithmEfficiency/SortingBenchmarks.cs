@@ -12,7 +12,7 @@ namespace SortingBenchmarks
         private ArrayGenerators arrayGenerators = new ArrayGenerators();
         private int[] array;
 
-        [Params(10, 100, 1000)]
+        [Params(25, 100, 250, 1000)]
         public int N;
 
         [Params("Random", "Sorted", "AlmostSorted", "Reversed")]
